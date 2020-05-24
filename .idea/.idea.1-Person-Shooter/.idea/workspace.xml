@@ -29,14 +29,18 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/CameraController.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/FPSPlayerMovement.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/AI/Wandering.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/FPSPlayerMovement.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/CameraController.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Assets/FPSPlayerMovement.cs" />
         <option value="$PROJECT_DIR$/Assets/CameraController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/CameraController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/FPSPlayerMovement.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/AI/Wandering.cs" />
       </list>
     </option>
   </component>
@@ -47,6 +51,8 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DebuggerViewTab_PTCS_FirstProportionKey" value="0.34995976" />
+    <property name="DebuggerViewTab_PTCS_LastProportionKey" value="0.30008045" />
     <property name="Discover.Launch.Via.Unity" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
@@ -59,10 +65,10 @@
       <option name="pid" />
       <method v="2" />
     </configuration>
-    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" ignored-value-for-modified-check="18892">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
-      <option name="pid" />
+      <option name="pid" value="18892" />
       <method v="2" />
     </configuration>
   </component>
@@ -77,6 +83,7 @@
       <option name="presentableId" value="Default" />
       <updated>1590240043969</updated>
       <workItem from="1590240072193" duration="2446000" />
+      <workItem from="1590302251349" duration="3281000" />
     </task>
     <servers />
   </component>
@@ -95,8 +102,43 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="2517" height="523" key="GridCell.Tab.0.bottom" timestamp="1590332337594">
+      <screen x="0" y="0" width="2560" height="1410" />
+    </state>
+    <state width="2517" height="523" key="GridCell.Tab.0.bottom/0.0.2560.1410/2560.87.1920.1050@0.0.2560.1410" timestamp="1590332337594" />
+    <state width="2517" height="523" key="GridCell.Tab.0.center" timestamp="1590332337594">
+      <screen x="0" y="0" width="2560" height="1410" />
+    </state>
+    <state width="2517" height="523" key="GridCell.Tab.0.center/0.0.2560.1410/2560.87.1920.1050@0.0.2560.1410" timestamp="1590332337594" />
+    <state width="2517" height="523" key="GridCell.Tab.0.left" timestamp="1590332337593">
+      <screen x="0" y="0" width="2560" height="1410" />
+    </state>
+    <state width="2517" height="523" key="GridCell.Tab.0.left/0.0.2560.1410/2560.87.1920.1050@0.0.2560.1410" timestamp="1590332337593" />
+    <state width="2517" height="523" key="GridCell.Tab.0.right" timestamp="1590332337594">
+      <screen x="0" y="0" width="2560" height="1410" />
+    </state>
+    <state width="2517" height="523" key="GridCell.Tab.0.right/0.0.2560.1410/2560.87.1920.1050@0.0.2560.1410" timestamp="1590332337594" />
+    <state width="2517" height="523" key="GridCell.Tab.1.bottom" timestamp="1590332388690">
+      <screen x="0" y="0" width="2560" height="1410" />
+    </state>
+    <state width="2517" height="523" key="GridCell.Tab.1.bottom/0.0.2560.1410/2560.87.1920.1050@0.0.2560.1410" timestamp="1590332388690" />
+    <state width="2517" height="523" key="GridCell.Tab.1.center" timestamp="1590332388690">
+      <screen x="0" y="0" width="2560" height="1410" />
+    </state>
+    <state width="2517" height="523" key="GridCell.Tab.1.center/0.0.2560.1410/2560.87.1920.1050@0.0.2560.1410" timestamp="1590332388690" />
+    <state width="2517" height="523" key="GridCell.Tab.1.left" timestamp="1590332388690">
+      <screen x="0" y="0" width="2560" height="1410" />
+    </state>
+    <state width="2517" height="523" key="GridCell.Tab.1.left/0.0.2560.1410/2560.87.1920.1050@0.0.2560.1410" timestamp="1590332388690" />
+    <state width="2517" height="523" key="GridCell.Tab.1.right" timestamp="1590332388690">
+      <screen x="0" y="0" width="2560" height="1410" />
+    </state>
+    <state width="2517" height="523" key="GridCell.Tab.1.right/0.0.2560.1410/2560.87.1920.1050@0.0.2560.1410" timestamp="1590332388690" />
   </component>
 </project>
